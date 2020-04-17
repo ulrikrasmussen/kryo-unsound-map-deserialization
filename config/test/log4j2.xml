@@ -10,10 +10,10 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Root level="info">
+        <Root level="warn">
             <AppenderRef ref="Console-Appender"/>
         </Root>
-        <Logger name="net.corda" level="info" additivity="false">
+        <Logger name="net.corda" level="warn" additivity="false">
             <AppenderRef ref="Console-Appender"/>
         </Logger>
     </Loggers>
